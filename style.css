@@ -1,0 +1,50 @@
+body {
+  background-color: gainsboro;
+  /* Use a system font, if none are available use an available sans-sarif */
+  font-family: system-ui, sans-serif;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 325px;
+  margin: auto;
+  color: yellowgreen;
+  text-shadow: 2px 2px 0px black;
+}
+
+.sqr {
+  width: 30%;
+  aspect-ratio: 1/1;
+  border: 3px solid black;
+  font-size: 64px;
+  text-align: center;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: 'Shadows Into Light', serif;
+  font-size: 36px;
+  margin: 10px;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', serif;
+  font-size: 50px;
+}
+
+button {
+  margin: 20px auto;
+  width: 150px;
+  background-color: yellowgreen;
+  cursor: pointer;
+  font-family: 'Shadows Into Light', serif;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: rgb(125, 168, 68);
+}
